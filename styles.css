@@ -1,11 +1,9 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Typography */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -20,7 +18,6 @@ p {
     margin-bottom: 20px;
 }
 
-/* Navigation */
 header {
     background-color: #f1f1f1;
     padding: 20px;
@@ -46,12 +43,10 @@ nav a {
     font-weight: bold;
 }
 
-/* Main */
 main {
     margin-top: 100px;
 }
 
-/* Hero */
 .hero {
     background-color: #f1f1f1;
     padding: 50px;
@@ -62,9 +57,8 @@ main {
     justify-content: center;
 }
 
-/* Sections */
 section {
-    padding: 50px;
+    padding: 100px 50px 50px;
 }
 
 img {
@@ -74,7 +68,6 @@ img {
     margin: 0 auto 20px;
 }
 
-/* Contact */
 .contact ul {
     list-style: none;
 }
@@ -88,30 +81,12 @@ img {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
 }
 
-.social-media {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.social-media li {
-    margin: 0 5px;
-}
-
-.social-media img {
-    width: 32px;
-    height: auto;
-}
-
-/* Media Queries */
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
